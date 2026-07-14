@@ -1,0 +1,23 @@
+#Ambientes Virtuais
+.venv/
+venv/
+env/
+ENV/
+
+#Cache do Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Variáveis de ambiente (Segurança!)
+.env
+*.env
+
+#Bancos de dados locais / Vetoriais
+*.db
+chroma_db/
+.chroma/
+
+#IDEs
+.vscode/
+.idea/
